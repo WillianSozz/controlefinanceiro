@@ -1,0 +1,16 @@
+.tdi{
+    padding-top: 15px;
+    text-align: center;
+    word-break: break-all;
+
+}
+
+svg{
+    width: 18px;
+    height: 18px;
+   
+}
+
+svg:hover{
+    color: teal;
+}

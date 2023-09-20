@@ -1,0 +1,50 @@
+.headerri{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+.containerri{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 15px;
+    width: 30%;
+
+}
+
+.titleri{
+    font-size: 20px;
+}
+
+.totalri{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media (max-width: 750px){
+
+    .containerri {
+        width: 20%;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+    body{
+        text-align: center;
+    }
+
+
+}
+
